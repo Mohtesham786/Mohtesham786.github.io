@@ -1,0 +1,50 @@
+:root{
+  --bg:#0b1020;
+  --text:#eef1ff;
+  --muted:#c2c8ffb3;
+  --accent:#7c5cff;
+  --border:rgba(255,255,255,.12);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: radial-gradient(1100px 520px at 20% -10%, rgba(124,92,255,.35), transparent 60%), var(--bg);
+  color:var(--text);
+}
+.container{max-width:980px; margin:0 auto; padding:24px}
+a{color:inherit}
+
+.nav{display:flex; justify-content:space-between; align-items:center; gap:16px}
+.logo{font-weight:900; text-decoration:none}
+.links{display:flex; gap:14px; flex-wrap:wrap}
+.links a{color:var(--muted); text-decoration:none}
+.links a:hover{color:var(--text)}
+
+.hero{padding:54px 0 18px}
+.badge{display:inline-block; padding:6px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); font-size:13px}
+h1{font-size:44px; line-height:1.05; margin:14px 0 10px}
+.accent{color:var(--accent)}
+.subtitle{max-width:720px; color:var(--muted); line-height:1.6; margin:0}
+
+.btn{display:inline-block; padding:10px 14px; border-radius:14px; border:1px solid var(--border); text-decoration:none; background:rgba(255,255,255,.03)}
+.btn.primary{background:var(--accent); border-color:transparent}
+.btn.small{padding:8px 12px; border-radius:12px}
+.cta{display:flex; gap:12px; margin-top:18px; flex-wrap:wrap}
+
+.section{padding:40px 0}
+.grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:14px; margin-top:14px}
+.card{border:1px solid var(--border); border-radius:18px; padding:16px; background:rgba(255,255,255,.04)}
+.card p{color:var(--muted)}
+.meta{font-size:13px; color:rgba(255,255,255,.7)}
+.card-links a{margin-right:12px; text-decoration:none}
+.card-links a:hover{color:var(--accent)}
+
+.chips{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px}
+.chip{padding:8px 12px; border:1px solid var(--border); border-radius:999px; color:var(--muted); background:rgba(255,255,255,.03)}
+
+.footer{border-top:1px solid var(--border); margin-top:24px}
+.footer-inner{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; color:var(--muted)}
+.to-top{text-decoration:none; color:var(--muted)}
+.to-top:hover{color:var(--text)}
