@@ -1,115 +1,972 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mohtesham — Portfolio</title>
-  <meta name="description" content="Portfolio of Mohtesham — projects, skills, and contact." />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="container">
-    <nav class="nav">
-      <a class="logo" href="#">Mohtesham</a>
-      <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="btn small">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Mohtesham Ahmed — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- TOP NAV -->
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-badge" aria-hidden="true">
+            <!-- simple robot icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M10 3h4M12 3v3"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <rect
+                x="6"
+                y="7"
+                width="12"
+                height="12"
+                rx="3"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M9 11h.01M15 11h.01"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+              <path
+                d="M9 15h6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span>Mohammed Mohtesham Ahmed Soherwardi</span>
+        </div>
+
+        <nav class="navlinks" aria-label="Primary">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-    </nav>
+    </header>
 
-    <section class="hero">
-      <p class="badge">Open to opportunities</p>
-      <h1>Hi, I’m <span class="accent">Mohtesham</span>.</h1>
-      <p class="subtitle">
-        I build practical projects and love learning fast.
-        Interested in <strong>Software / Web / Data</strong>.
-      </p>
-
-      <div class="cta">
-        <a class="btn primary" href="#projects">View Projects</a>
-        <a class="btn" href="https://github.com/Mohtesham786" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-      </div>
-    </section>
-  </header>
-
-  <main class="container">
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Project 1 — Title</h3>
-          <p>1–2 lines about what it does and why it matters.</p>
-          <p class="meta">Tech: HTML, CSS, JavaScript</p>
-          <div class="card-links">
-            <a href="#" target="_blank" rel="noreferrer">Live</a>
-            <a href="#" target="_blank" rel="noreferrer">Code</a>
+    <main class="container">
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="hero-left reveal">
+          <div class="pill">
+            <span class="dot" aria-hidden="true"></span>
+            <span>Open to opportunities in Germany</span>
           </div>
-        </article>
 
-        <article class="card">
-          <h3>Project 2 — Title</h3>
-          <p>Short description.</p>
-          <p class="meta">Tech: ___</p>
-          <div class="card-links">
-            <a href="#" target="_blank" rel="noreferrer">Live</a>
-            <a href="#" target="_blank" rel="noreferrer">Code</a>
+          <div class="kicker">Hi,</div>
+          <h1>I'm <span class="accent">Mohammed</span></h1>
+          <div class="subtitle">Robotics &amp; Mechatronics Engineer</div>
+
+          <p class="lead">
+            Practical experience working with 6-axis robots, mobile robots, and
+            integration &amp; testing. Interested in Robotics / Mechatronics /
+            Automation.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects →</a>
+            <a
+              class="btn btn-soft"
+              href="assets/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Download Resume</a
+            >
           </div>
-        </article>
 
-        <article class="card">
-          <h3>Project 3 — Title</h3>
-          <p>Short description.</p>
-          <p class="meta">Tech: ___</p>
-          <div class="card-links">
-            <a href="#" target="_blank" rel="noreferrer">Live</a>
-            <a href="#" target="_blank" rel="noreferrer">Code</a>
+          <div class="stack">
+            <div class="stack-title">Tech Stack</div>
+            <div class="chips">
+              <span class="chip">ROS 2</span>
+              <span class="chip">Python</span>
+              <span class="chip">Java</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">SQL</span>
+              <span class="chip">SolidWorks</span>
+              <span class="chip">3D Printing</span>
+              <span class="chip">SLAM</span>
+              <span class="chip">RViz</span>
+            </div>
           </div>
-        </article>
-      </div>
-    </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="chips">
-        <span class="chip">HTML</span>
-        <span class="chip">CSS</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">Git</span>
-        <span class="chip">GitHub</span>
-      </div>
-    </section>
+          <!-- Quick cards with icons -->
+          <div class="quick-cards">
+            <div class="qcard">
+              <span class="qicon" aria-hidden="true">
+                <!-- chip icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <rect
+                    x="7"
+                    y="7"
+                    width="10"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span>ROS 2 + Python</span>
+            </div>
 
-    <section id="about" class="section">
-      <h2>About</h2>
-      <div class="card">
-        <p>
-          I’m focused on building strong fundamentals, shipping projects, and improving every day.
-          I’m looking for opportunities where I can learn and contribute.
-        </p>
-      </div>
-    </section>
+            <div class="qcard">
+              <span class="qicon" aria-hidden="true">
+                <!-- cube icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2 3 7l9 5 9-5-9-5Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 7v10l9 5 9-5V7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 12v10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span>Prototyping &amp; 3D Printing</span>
+            </div>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <div class="card">
-        <p>
-          <strong>Email:</strong> <a href="mailto:yourname@email.com">yourname@email.com</a><br />
-          <strong>Resume:</strong> <a href="assets/resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
-        </p>
-      </div>
-    </section>
-  </main>
+            <div class="qcard">
+              <span class="qicon" aria-hidden="true">
+                <!-- book icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 19a2 2 0 0 1 2-2h14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M6 3h14v18H6a2 2 0 0 0-2 2V5a2 2 0 0 1 2-2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span>Teaching &amp; Tutoring</span>
+            </div>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Mohtesham</p>
-      <a class="to-top" href="#">Back to top ↑</a>
-    </div>
-  </footer>
+            <div class="qcard">
+              <span class="qicon" aria-hidden="true">
+                <!-- pin icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M12 10.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span>Hamburg, Germany</span>
+            </div>
+          </div>
+        </div>
 
-  <script src="script.js"></script>
-</body>
+        <div class="hero-right reveal">
+          <div class="photo-frame">
+            <img
+              src="assets/profile.jpg"
+              alt="Mohammed Mohtesham Ahmed"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="section-head center reveal">
+          <h3>About Me</h3>
+          <p>Robotics &amp; Mechatronics Engineer</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <p>
+              I am a passionate Mechanical Engineer specializing in Robotics and
+              Mechatronics, currently pursuing my Master’s degree at Technische
+              Universität Hamburg. With hands-on experience in 6-axis industrial
+              robots, mobile robot platforms, and ROS 2 development, I bridge
+              the gap between mechanical design and intelligent automation.
+            </p>
+            <br />
+            <p>
+              My academic focus on Construction Robotics and Applied Design
+              Methodology in Mechatronics drives me to develop innovative
+              solutions for real-world engineering challenges. I’m enthusiastic
+              about teaching and have experience tutoring robotics, programming,
+              and electronics to diverse age groups.
+            </p>
+            <br />
+            <p class="accent">
+              Currently looking for internship positions in Robotics and
+              Mechatronics.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h4 class="card-title">At a Glance</h4>
+
+            <div class="glance">
+              <div class="glance-item">
+                <div class="glance-icon" aria-hidden="true">
+                  <!-- pin -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M12 10.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="glance-label">Location</div>
+                  <div class="glance-value">Hamburg, Germany</div>
+                </div>
+              </div>
+
+              <div class="glance-item">
+                <div class="glance-icon" aria-hidden="true">
+                  <!-- globe -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M2 12h20"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12 2c3 3 3 17 0 20"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="glance-label">Languages</div>
+                  <div class="glance-value">English (C1), German (B2)</div>
+                </div>
+              </div>
+
+              <div class="glance-item">
+                <div class="glance-icon" aria-hidden="true">
+                  <!-- heart -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 21s-7-4.5-9-9a5.5 5.5 0 0 1 9-6 5.5 5.5 0 0 1 9 6c-2 4.5-9 9-9 9Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="glance-label">Interests</div>
+                  <div class="glance-value">
+                    Robotics, Mechatronics, Construction Robotics
+                  </div>
+                </div>
+              </div>
+
+              <div class="glance-item">
+                <div class="glance-icon" aria-hidden="true">
+                  <!-- suitcase -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <rect
+                      x="4"
+                      y="7"
+                      width="16"
+                      height="14"
+                      rx="2"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="glance-label">Relocation</div>
+                  <div class="glance-value">Open within Germany</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <div class="section-head center reveal">
+          <h3>Education</h3>
+          <p>
+            Academic foundation in mechanical engineering with specialized focus
+            on robotics and automation
+          </p>
+        </div>
+
+        <div class="edu-list">
+          <div class="card edu-card highlight reveal">
+            <div class="trow">
+              <div class="edu-top">
+                <div class="edu-badge" aria-hidden="true">
+                  <!-- graduation cap -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 3 2 8l10 5 10-5-10-5Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6 10v6c0 2 12 2 12 0v-6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4>M.Sc. Mechanical Engineering and Management</h4>
+                  <div class="edu-sub accent">Technische Universität Hamburg</div>
+                  <div class="muted edu-meta">Oct 2023 – Present · Hamburg, Germany</div>
+                </div>
+              </div>
+              <span class="tag tag-current">Current</span>
+            </div>
+
+            <div class="edu-block">
+              <div class="muted"><b>Focus Areas:</b></div>
+              <div class="chips" style="margin-top: 10px">
+                <span class="chip">Robotics</span>
+                <span class="chip">Construction Robotics</span>
+                <span class="chip">Applied Design Methodology in Mechatronics</span>
+                <span class="chip">3D Printing</span>
+              </div>
+            </div>
+
+            <div class="edu-block muted">
+              <b>Research Project:</b> ROS 2-driven drawing simulator for a
+              painting robot
+            </div>
+          </div>
+
+          <div class="card edu-card reveal">
+            <div class="edu-top">
+              <div class="edu-badge" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3 2 8l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6 10v6c0 2 12 2 12 0v-6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4>B.E. Mechanical Engineering</h4>
+                <div class="edu-sub accent">
+                  Poojya Doddappa Appa College of Engineering
+                </div>
+                <div class="muted edu-meta">Aug 2017 – Jun 2021 · Kalaburagi, India</div>
+              </div>
+            </div>
+
+            <div class="edu-block">
+              <div class="muted"><b>Focus Areas:</b></div>
+              <div class="chips" style="margin-top: 10px">
+                <span class="chip">Robotics</span>
+                <span class="chip">Automotive Engineering</span>
+                <span class="chip">Internal Combustion Engines (IC Engines)</span>
+              </div>
+            </div>
+
+            <div class="edu-block muted">
+              <b>Thesis:</b> Smart walking stick for visually impaired people
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section">
+        <div class="section-head center reveal">
+          <h3>Experience</h3>
+          <p>
+            Professional journey spanning teaching, robotics development, and
+            industrial engineering
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="card xp-card highlight reveal">
+            <span class="tag tag-current">Current Position</span>
+
+            <div class="xp-header">
+              <h4>Tutor for Construction Informatics</h4>
+              <a class="accent" href="#" onclick="return false;"
+                >Institute for Digital and Autonomous Construction</a
+              >
+              <div class="muted">Oct 2025 – Present · Hamburg, Germany</div>
+
+              <ul class="bullets">
+                <li>
+                  Teach Java programming (German) to first-year bachelor students
+                  at TUHH
+                </li>
+                <li>
+                  Instruct object-oriented programming fundamentals and best
+                  practices
+                </li>
+                <li>
+                  Guide students through database concepts and applications
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card xp-card reveal">
+            <div class="xp-header">
+              <h4>Tutor for Robotics / Student Research Assistant</h4>
+              <a class="accent" href="#" onclick="return false;"
+                >V Robotia Robotics &amp; VR</a
+              >
+              <div class="muted">Nov 2024 – Jun 2025 · Hamburg, Germany</div>
+
+              <ul class="bullets">
+                <li>
+                  Taught robotics, programming, and electronics in German to
+                  students aged 5–19
+                </li>
+                <li>
+                  Developed and optimized robotic components using SolidWorks and
+                  3D printing
+                </li>
+                <li>
+                  Supported mobile robot development initiatives and organized
+                  robotics events
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card xp-card reveal">
+            <div class="xp-header">
+              <h4>Graduate Engineer Intern</h4>
+              <a class="accent" href="#" onclick="return false;"
+                >Supreme Diesel Industry (Bosch)</a
+              >
+              <div class="muted">Aug 2021 – Feb 2022 · Kalaburagi, India</div>
+
+              <ul class="bullets">
+                <li>
+                  Conducted engine performance analysis using Excel (KPIs: brake
+                  power, fuel efficiency, calibration accuracy)
+                </li>
+                <li>
+                  Performed hands-on assembly, disassembly, cleaning,
+                  calibration, and inspection of fuel pumps
+                </li>
+                <li>
+                  Collaborated with senior engineers on quality control and
+                  testing procedures
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="section-head center reveal">
+          <h3>Projects</h3>
+          <p>Showcasing robotics work with clear outcomes and technologies used</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="fbtn active" data-filter="all">All</button>
+          <button class="fbtn" data-filter="ros2">ROS 2</button>
+          <button class="fbtn" data-filter="mechatronics">Mechatronics</button>
+          <button class="fbtn" data-filter="construction">Construction Robotics</button>
+          <button class="fbtn" data-filter="prototyping">Prototyping</button>
+        </div>
+
+        <div class="grid-3">
+          <!-- Project 1 -->
+          <article class="card pcard reveal" data-tags="construction ros2">
+            <div class="pcard-head">
+              <span class="tag tag-progress">In Progress</span>
+              <h4 class="pcard-title">
+                Quadruped Robot Dog for Construction Safety Compliance
+              </h4>
+              <div class="muted">Oct 2025 – Present</div>
+            </div>
+
+            <div class="pblock">
+              <div class="pmini-title">Problem</div>
+              <p class="muted">
+                Construction sites require constant safety monitoring which is
+                labor-intensive and prone to human error.
+              </p>
+            </div>
+
+            <div class="pblock">
+              <div class="pmini-title">Approach</div>
+              <p class="muted">
+                Use LiDAR sensors as input for SLAM to localize and enable
+                autonomous navigation and obstacle avoidance.
+              </p>
+            </div>
+
+            <div class="pblock">
+              <div class="pmini-title">Outcome</div>
+              <p class="muted">
+                Enable autonomous navigation and real-time safety gear detection
+                for construction workers.
+              </p>
+            </div>
+
+            <div class="chips" style="margin-top: 12px">
+              <span class="chip">ROS 2</span>
+              <span class="chip">Python</span>
+              <span class="chip">SLAM</span>
+              <span class="chip">LiDAR</span>
+            </div>
+
+            <div class="plink">
+              <a href="#" onclick="return false;">Code</a>
+              <a href="#" onclick="return false;">Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card pcard reveal" data-tags="ros2 prototyping">
+            <div class="pcard-head">
+              <span class="tag tag-done">Completed</span>
+              <h4 class="pcard-title">
+                Research Project – Development of a ROS 2 Driven Drawing Simulator
+                for a Painting Robot
+              </h4>
+              <div class="muted">May 2025 – Nov 2025</div>
+            </div>
+
+            <p class="muted" style="margin-top: 10px">
+              Design and development of a digital simulator for a 6-axis painting
+              robot driven by ROS 2 to replicate movement and task execution.
+            </p>
+
+            <div class="chips" style="margin-top: 12px">
+              <span class="chip">ROS 2</span>
+              <span class="chip">Python</span>
+              <span class="chip">PyQt</span>
+              <span class="chip">TensorFlow</span>
+            </div>
+
+            <div class="plink">
+              <a href="#" onclick="return false;">Code</a>
+              <a href="#" onclick="return false;">Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card pcard reveal" data-tags="mechatronics prototyping">
+            <div class="pcard-head">
+              <span class="tag tag-done">Completed</span>
+              <h4 class="pcard-title">Non-Invasive Soil Scanning Robot</h4>
+              <div class="muted">Apr 2024 – Aug 2024</div>
+            </div>
+
+            <p class="muted" style="margin-top: 10px">
+              Contribution to the development of a quadcopter using electrical
+              impedance tomography to non-invasively scan the ground for foreign
+              bodies.
+            </p>
+
+            <div class="chips" style="margin-top: 12px">
+              <span class="chip">SolidWorks</span>
+              <span class="chip">Electrical Impedance Tomography</span>
+              <span class="chip">System Integration</span>
+              <span class="chip">3D Printing</span>
+            </div>
+
+            <div class="plink">
+              <a href="#" onclick="return false;">Code</a>
+              <a href="#" onclick="return false;">Demo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <div class="section-head center reveal">
+          <h3>Skills &amp; Certifications</h3>
+          <p>Technical competencies and professional certifications</p>
+        </div>
+
+        <div class="grid-4">
+          <div class="card reveal">
+            <div class="box-title">Programming</div>
+
+            <div class="skill-row">
+              <span>ROS 2</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>Python</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>Java</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>C#</span><span class="level mid">Intermediate</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="box-title">Tools &amp; Tech</div>
+
+            <div class="skill-row">
+              <span>Git/GitHub</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>SQL (Databases)</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>SolidWorks</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>3D Printing</span><span class="level ok">Proficient</span>
+            </div>
+            <div class="skill-row">
+              <span>Microsoft Office/365</span><span class="level ok">Proficient</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="box-title">Soft Skills</div>
+            <div class="muted">Agile Project Management</div>
+            <div class="muted">Analytical Skills</div>
+            <div class="muted">Technical Communication</div>
+            <div class="muted">Teaching &amp; Mentoring</div>
+          </div>
+
+          <div class="card reveal">
+            <div class="box-title">Languages</div>
+
+            <div class="skill-row">
+              <span>English</span><span class="level ok">C1</span>
+            </div>
+            <div class="skill-row">
+              <span>German</span><span class="level mid">B2</span>
+            </div>
+            <div class="skill-row">
+              <span>Hindi</span><span class="level ok">Native</span>
+            </div>
+            <div class="skill-row">
+              <span>Urdu</span><span class="level ok">Native</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-subhead center reveal">Certifications</div>
+
+        <!-- showing 3 now (as you requested) -->
+        <div class="grid-3">
+          <div class="card reveal">
+            <div class="cert-head">
+              <div class="cert-ic" aria-hidden="true">
+                <!-- chip -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <rect
+                    x="7"
+                    y="7"
+                    width="10"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="cert-title">C &amp; Embedded C</div>
+                <div class="muted">Nano Scientific Research Centre</div>
+                <div class="muted">2019</div>
+              </div>
+            </div>
+            <a class="btn btn-outline cert-btn" href="#" onclick="return false;"
+              >View Certificate</a
+            >
+          </div>
+
+          <div class="card reveal">
+            <div class="cert-head">
+              <div class="cert-ic" aria-hidden="true">
+                <!-- layers -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2 2 7l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2 12l10 5 10-5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2 17l10 5 10-5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="cert-title">AutoCAD 2D for Mechanical Engineers</div>
+                <div class="muted">CADD Centre Training Services</div>
+                <div class="muted">September 2020</div>
+              </div>
+            </div>
+            <a class="btn btn-outline cert-btn" href="#" onclick="return false;"
+              >View Certificate</a
+            >
+          </div>
+
+          <div class="card reveal">
+            <div class="cert-head">
+              <div class="cert-ic" aria-hidden="true">
+                <!-- layers -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2 2 7l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2 12l10 5 10-5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2 17l10 5 10-5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="cert-title">CATIA (Product Design Engineer)</div>
+                <div class="muted">
+                  KGTTI – Karnataka German Technical Training Institute
+                </div>
+                <div class="muted">December 2020</div>
+              </div>
+            </div>
+            <a class="btn btn-outline cert-btn" href="#" onclick="return false;"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="section-head center reveal">
+          <h3>Get In Touch</h3>
+          <p>
+            Interested in working together or have a question? Feel free to reach
+            out!
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <div class="contact-list">
+              <div class="citem">
+                <div class="cicon" aria-hidden="true">
+                  <!-- mail -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M4 6h16v12H4V6Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="m4 7 8 6 8-6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="muted">Email</div>
+                  <div>
+                    <a href="mailto:mohammed.soherwardi@tuhh.de"
+                      >mohammed.soherwardi@tuhh.de</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="citem">
+                <div class="cicon" aria-hidden="true">
+                  <!-- phone -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1A19.5 19.5 0 0 1 3.2 10.8 19.8 19.8 0 0 1 .1 2.2 2 2 0 0 1 2.1 0h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .6 3a2 2 0 0 1-.5 2.1L6 8.4a16 16 0 0 0 9.6 9.6l1.6-1.2a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .6a2 2 0 0 1 1.7 2Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="muted">Phone</div>
+                  <div><a href="tel:+491785794451">+49 178 579 4451</a></div>
+                </div>
+              </div>
+
+              <div class="citem">
+                <div class="cicon" aria-hidden="true">
+                  <!-- pin -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M12 10.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="muted">Location</div>
+                  <div>Hamburg, Germany</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 16px">
+              <div class="muted">Connect with me</div>
+              <div class="socials">
+                <a
+                  class="sbtn"
+                  href="https://www.linkedin.com/in/mohtesham1999/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="LinkedIn"
+                  >in</a
+                >
+                <a
+                  class="sbtn"
+                  href="https://github.com/Mohtesham786/Mohtesham786.github.io"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="GitHub"
+                  >GH</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card resume-card reveal">
+            <h4>Download Resume</h4>
+            <p class="muted">
+              Get a copy of my full resume with detailed experience and
+              qualifications.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="assets/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >⬇ Download PDF</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>© <span id="year"></span> Mohammed Mohtesham Ahmed</div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
