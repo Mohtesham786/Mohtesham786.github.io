@@ -532,11 +532,44 @@ h1 {
 
 .pblock {
   display: grid;
-  gap: 6px;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* date row with icon */
+.pdate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pdate-ico {
+  color: var(--muted);
+  display: grid;
+  place-items: center;
+}
+
+/* Problem/Approach/Outcome rows with icons */
+.pmini {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.pmini-ico {
+  width: 26px;
+  height: 26px;
+  border-radius: 10px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
 }
 
 .pmini-title {
   font-weight: 900;
+  margin-bottom: 2px;
 }
 
 .plink {
